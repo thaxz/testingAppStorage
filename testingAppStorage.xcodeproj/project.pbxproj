@@ -12,6 +12,7 @@
 		E9BD4C022953966200D1D25B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9BD4C012953966200D1D25B /* Assets.xcassets */; };
 		E9BD4C052953966200D1D25B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9BD4C042953966200D1D25B /* Preview Assets.xcassets */; };
 		E9BD4C0C2953998A00D1D25B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD4C0B2953998A00D1D25B /* OnboardingView.swift */; };
+		E9BD4C0E29539CF600D1D25B /* Onboarding+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD4C0D29539CF600D1D25B /* Onboarding+Components.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		E9BD4C012953966200D1D25B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9BD4C042953966200D1D25B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9BD4C0B2953998A00D1D25B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		E9BD4C0D29539CF600D1D25B /* Onboarding+Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Onboarding+Components.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +39,7 @@
 		E9BD4BF12953966100D1D25B = {
 			isa = PBXGroup;
 			children = (
+				E9BD4C0D29539CF600D1D25B /* Onboarding+Components.swift */,
 				E9BD4BFC2953966100D1D25B /* testingAppStorage */,
 				E9BD4BFB2953966100D1D25B /* Products */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				E9BD4C0C2953998A00D1D25B /* OnboardingView.swift in Sources */,
 				E9BD4C002953966100D1D25B /* IntroView.swift in Sources */,
+				E9BD4C0E29539CF600D1D25B /* Onboarding+Components.swift in Sources */,
 				E9BD4BFE2953966100D1D25B /* testingAppStorageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
