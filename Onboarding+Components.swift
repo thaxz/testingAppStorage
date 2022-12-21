@@ -12,7 +12,9 @@ extension OnboardingView {
     // screen components
     
     var bottomButtom: some View {
-        Text("Sign In")
+        Text(onboardingState == 0 ? "Sign up" :
+                onboardingState == 3 ? "Finish" :
+        "Next")
             .font(.headline)
             .foregroundColor(.purple)
             .frame(height: 55)
@@ -116,7 +118,7 @@ extension OnboardingView {
                     EmptyView()
                 }
             } label: {
-                // if the number of character's bigger than one display users choice otherwise, default
+                // if the number of character's greater than one display users choice otherwise, default
                 Text(usersGender.count > 1 ? usersGender : "Select a gender")
                     .font(.headline)
                     .foregroundColor(.purple)
