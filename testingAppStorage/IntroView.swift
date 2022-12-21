@@ -19,13 +19,18 @@ struct IntroView: View {
                            startRadius: 5,
                            endRadius: UIScreen.main.bounds.height)
             .edgesIgnoringSafeArea(.all)
-            
             // if the user is signed in shows profile
             // else shows onboarding
             if isUserSignedIn {
-                Text("profileview")
+                ProfileView()
+                    .transition(
+                        .asymmetric(insertion: .move(edge: .bottom),
+                                    removal: .move(edge: .top)))
             } else {
                 OnboardingView()
+                    .transition(
+                        .asymmetric(insertion: .move(edge: .top),
+                                    removal: .move(edge: .bottom)))
             }
         }
     }

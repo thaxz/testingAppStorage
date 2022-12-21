@@ -14,6 +14,7 @@
 		E9BD4C0C2953998A00D1D25B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD4C0B2953998A00D1D25B /* OnboardingView.swift */; };
 		E9BD4C0E29539CF600D1D25B /* Onboarding+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD4C0D29539CF600D1D25B /* Onboarding+Components.swift */; };
 		E9BD4C102953A9E300D1D25B /* Onboarding+Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD4C0F2953A9E300D1D25B /* Onboarding+Functions.swift */; };
+		E9BD4C122953B39800D1D25B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BD4C112953B39800D1D25B /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		E9BD4C0B2953998A00D1D25B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		E9BD4C0D29539CF600D1D25B /* Onboarding+Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Onboarding+Components.swift"; sourceTree = "<group>"; };
 		E9BD4C0F2953A9E300D1D25B /* Onboarding+Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Onboarding+Functions.swift"; sourceTree = "<group>"; };
+		E9BD4C112953B39800D1D25B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileView.swift; path = testingAppStorage/ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			children = (
 				E9BD4C0F2953A9E300D1D25B /* Onboarding+Functions.swift */,
 				E9BD4C0D29539CF600D1D25B /* Onboarding+Components.swift */,
+				E9BD4C112953B39800D1D25B /* ProfileView.swift */,
 				E9BD4BFC2953966100D1D25B /* testingAppStorage */,
 				E9BD4BFB2953966100D1D25B /* Products */,
 			);
@@ -150,6 +153,7 @@
 				E9BD4C0C2953998A00D1D25B /* OnboardingView.swift in Sources */,
 				E9BD4C002953966100D1D25B /* IntroView.swift in Sources */,
 				E9BD4C0E29539CF600D1D25B /* Onboarding+Components.swift in Sources */,
+				E9BD4C122953B39800D1D25B /* ProfileView.swift in Sources */,
 				E9BD4BFE2953966100D1D25B /* testingAppStorageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
